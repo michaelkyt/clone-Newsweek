@@ -1,0 +1,57 @@
+h3 {
+  letter-spacing: 0.25px;
+  color: #FF0500;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.sidebar ul {
+  list-style: square;
+}
+
+.sidebar li {
+  color: #FF0500;
+  list-style-position: inside;
+  padding: 15px 15px 15px 15px;
+  position: relative;
+  top: 15px;
+  left: -25px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.sidebar #top-li {
+  border-top: 0;
+}
+
+.sidebar a {
+  color: #181818;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+#greybtn {
+  list-style: none;
+  border-top: 0;
+}
+
+#greybtn button {
+  background-color: #e5e5e5;
+  color: #757575;
+  font-size: 16px;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+@media all and (max-width: 992px) {
+  .sidebar {
+    background-color: #f8f8f8;
+  }
+}
