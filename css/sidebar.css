@@ -8,6 +8,7 @@ h3 {
 
 .sidebar ul {
   list-style: square;
+  padding-bottom: 3em;
 }
 
 .sidebar li {

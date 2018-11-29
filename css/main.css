@@ -37,13 +37,17 @@ h2 a{
 }
 
 h1 a{
-  color: #181818;
+  color: black;
   font-size: 30px;
 }
 
+.main p {
+  color: #333;
+}
+
 .submain {
-  height: 670px;
   border-bottom: 1px solid #f2f2f2;
+  height: 670px;
 }
 
 .subrow {
@@ -52,8 +56,8 @@ h1 a{
 }
 
 .submain-img {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 .submain-text {
@@ -74,6 +78,6 @@ h1 a{
   color: #00B7FF;
 }
 
-#sponsor h2{
-  color:
+#sponsor h2 a:hover {
+  color: #337ab7;
 }
