@@ -11,6 +11,8 @@ h3 {
   padding-bottom: 3em;
 }
 
+
+
 .sidebar li {
   color: #FF0500;
   list-style-position: inside;
@@ -54,5 +56,8 @@ h3 {
 @media all and (max-width: 992px) {
   .sidebar {
     background-color: #f8f8f8;
+  }
+  .sidebar ul {
+    text-align: center;
   }
 }

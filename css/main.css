@@ -55,6 +55,10 @@ h1 a{
   margin-right: 0;
 }
 
+.submain-content {
+  margin-top: 15px;
+}
+
 .submain-img {
   height: auto;
   width: 100%;
@@ -71,7 +75,7 @@ h1 a{
 #blue-bg {
   background-color: #e6ffff;
   border: 1px solid #cdf0ff;
-  height: 655px;
+  height: 640px;
 }
 
 #sponsor h2 a{
